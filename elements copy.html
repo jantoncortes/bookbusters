@@ -1,0 +1,120 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>BOOKBUSTER</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>BOOKBUSTERS</strong> by Curso-OOP</a>
+									<ul class="icons">
+										<li><a href="#" class="icon solid fa-home"><span class="label">Twitter</span></a></li>
+									</ul>
+								</header>
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Valoración</h1>
+									</header>
+									<hr class="major" />
+
+									<!-- Elements -->
+										<h2 id="elements"></h2>
+										<div class="row gtr-200">
+											<div class="col-6 col-12-medium">
+												<!-- Form -->
+													<h3>Gracias por tu valoración agradecemos que nos dejes un comentario </h3>
+
+													<form method="post" action="#">
+														<div class="row gtr-uniform">
+															<!-- Break -->
+															
+															<!-- Break -->
+															<div class="col-4 col-12-small">
+																<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+																<label for="demo-priority-low">Low</label>
+															</div>
+															<div class="col-4 col-12-small">
+																<div class="chorizo">
+																	<a id="estrellar"></a>
+																	
+																</div>
+
+															</div>
+															<div class="col-4 col-12-small"></div>
+															<div></div>
+															<!-- Break -->
+															<div class="col-12">
+																<textarea name="comentario" id="demo-message" placeholder="Escriba su comentario" rows="6"></textarea>
+															</div>
+															<!-- Break -->
+															<div class="col-12">
+																<ul class="actions">
+																	<li><input type="submit" value="Valorar" class="primary" /></li>
+																
+																</ul>
+															</div>
+														</div>
+													</form>
+
+												
+												<!-- Box -->
+																							
+											</div>
+										</div>
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+
+$(Document).ready(function(){
+//Aquí va todo el código
+alert("hola");
+
+estrellar('<?= ?>');
+
+
+});
+
+function estrellar(n){
+	pinta="&#9733;";
+
+for(x=0;x<=n;x++)
+{
+	$("#estrellar").append(pinta);
+
+}
+}
+
+
+
+
+			</script>
+
+	</body>
+</html>
